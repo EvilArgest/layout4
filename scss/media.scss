@@ -1,0 +1,214 @@
+@import "scss/variables";
+@media (max-width: 1020px) {
+  .youtube{
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .feedback__form{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact__form{
+    width: 90%;
+  }
+  .form__title{
+    font-size: 19px;
+  }
+  .contact__form{
+    width: 100%;
+    margin: 0;
+    & h1{
+      font-weight: bold;
+      font-style: normal;
+      font-size: 32px;
+      text-align: center;
+      line-height: 36px;
+    }
+    & p{
+      color: #858585;
+      margin: 25px auto 0 0;
+      line-height: 32px;
+    }
+  }
+  .courses__lutsk{
+    width: 100%;
+    & h1{
+      font-size: 23px;
+    }
+    & p{
+      max-width: 100%;
+      margin: 8%;
+    }
+  }
+  .submit__button{
+    height: 51px;
+    width: 270px;
+    margin: 30px auto;
+  }
+  .input__okay{
+    margin-top: 0;
+  }
+}
+@media (max-width: 790px) {
+      .sitelogo{
+        width: 60px;
+        height: 60px;
+      }
+      .burger__menu {
+        display: block;
+        position: relative;
+        width: 42px;
+        height: 32px;
+        background-color: $blue;
+        border-radius: 2px;
+        z-index: 1500;
+        &:before{
+          content: '';
+          background-color: white;
+          position: absolute;
+          width: 50%;
+          height: 2px;
+          left: 10px;
+          top: 10px;
+          transition: all 0.3s ease 0s;
+        }
+        & span{
+          position: absolute;
+          left: 10px;
+          width: 50%;
+          background-color: white;
+          top: 16px;
+          height: 2px;
+          transition: all 0.3s ease 0s;
+        }
+        &:after{
+          content: '';
+          background-color: white;
+          position: absolute;
+          width: 50%;
+          height: 2px;
+          left: 10px;
+          top: 22px;
+          transition: all 0.3s ease 0s;
+        }
+      }
+      .header__menu{
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 400px;
+        background-color: white;
+        transition: all 0.3s ease 0s;
+        & ul{
+          padding-top: 44px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      .burger__menu.active:before{
+          transform: rotate(45deg);
+          top: 16px;
+      }
+      .burger__menu.active:after{
+        transform: rotate(-45deg);
+        top: 16px;
+      }
+      .burger__menu.active span{
+        transform: scale(0);
+      }
+      .header__menu.active{
+        top: 0;
+      }
+}
+@media (max-width: 710px) {
+  //4
+  .last__blue {
+      flex-direction: column;
+      }
+  .two__blue__block{
+    width: 100%;
+  }
+  .little__white__in__blue span{
+    font-size: 12px;
+  }
+  .little__white__in__blue p{
+    font-size: 16px;
+  }
+  .little__white__in__blue i{
+    font-size: 42px;
+  }
+
+  ////9
+  .blue__div{
+    flex-direction: column;
+  }
+  .two__blocks{
+    width: 100%;
+  }
+  .thanks{
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .little__boy__text{
+    font-size: 14px;
+  }
+  .big__boy__number{
+    padding-top: 10px;
+    padding-bottom: 11px;
+    font-size: 24px;
+  }
+  ////10
+  .copyright{
+    padding-bottom: 15px;
+  }
+  .videvo__text{
+    letter-spacing: 0.4px;
+  }
+}
+@media (max-width: 1020px){
+  .videvo
+  {
+    display: block;
+  }
+}
+@media (max-width: 1020px) {
+  .course{
+    padding-right: 15px;
+    font-size: 24px;
+  }
+  .slider__title{
+    font-size: 18px;
+  }
+}
+@media (max-width: 972px) {
+    .slider__item__3 img{
+      margin-top: 70px;
+    }
+}
+@media (max-width: 820px) {
+  .slider__item__3{
+    flex-direction: column;
+  }
+  .slider__item__3 img{
+    margin: 10px auto 0;
+    width: 45%;
+    height: 44%;
+  }
+  .blue__name{
+    text-align: center;
+    margin-top: 40px;
+  }
+  .our__mentors{
+    padding: 0;
+    font-size: 28px;
+  }
+  .for__spans{
+    font-size: 14px;
+  }
+
+}

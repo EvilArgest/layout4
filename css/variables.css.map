@@ -1,0 +1,1 @@
+{"version":3,"file":"variables.css","sources":["variables.scss"],"sourcesContent":["$my-font: 'open_sans', sans-serif;\n$blue: #349ae0;\n$dark-grey: #666666;\n$light-grey: #a3a3a3;"],"names":[],"mappings":""}
