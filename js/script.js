@@ -22,6 +22,14 @@ $(document).ready(function(){
                     infinite: true,
                     arrows:false,
                     dots: true,
+                    speed: 800,
+                    autoplay: true,
+                    autoplaySpeed: 10000,
+                    pauseOnHover: false,
+                    draggable: false,
+                    pauseOnFocus: false,
+                    pauseOnDotsHover: false,
+                    swipe: true,
                 }
             },
             {
@@ -32,6 +40,14 @@ $(document).ready(function(){
                     infinite: true,
                     arrows:false,
                     dots: true,
+                    speed: 800,
+                    autoplay: true,
+                    autoplaySpeed: 10000,
+                    pauseOnHover: false,
+                    draggable: false,
+                    pauseOnFocus: false,
+                    pauseOnDotsHover: false,
+                    swipe: true,
                 }
             }]
     });
@@ -49,7 +65,7 @@ $(document).ready(function(){
         autoplaySpeed: 10000,
         pauseOnHover: false,
         fade: true,
-        draggable: false,
+        draggable: true,
         pauseOnFocus: false,
         pauseOnDotsHover: false,
     });
@@ -66,7 +82,7 @@ $(document).ready(function(){
         autoplaySpeed: 10000,
         pauseOnHover: false,
         fade: true,
-        draggable: false,
+        draggable: true,
         pauseOnFocus: false,
         pauseOnDotsHover: false,
     });
